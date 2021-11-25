@@ -13,3 +13,9 @@ body {
   color: white;
 }
 
+#minha_foto {
+    width: 200px;
+    position: absolute;
+    top: 130px;
+    left: 300px;
+  }
