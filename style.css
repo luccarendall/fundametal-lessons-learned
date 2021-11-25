@@ -15,24 +15,28 @@ body {
 
 #minha_foto {
     width: 200px;
-    position: absolute;
-    top: 130px;
+    position: relative;
+    top: 200px;
     left: 300px;
   }
 
   #licoes_aprendidas {
-    position: absolute;
-    top: 90px;
+    position: relative;
     color:rgb(248, 177, 83);
     font-weight: bold;
   }
   
   #licoes_a_aprender {
-    position: absolute;
-    top: 350px;
+    position: relative;
     color:rgb(248, 177, 83);
     font-weight: bold;
   }
 
   #rodape {
-}
+  }
+
+  a{
+    position: relative;
+
+
+  }
