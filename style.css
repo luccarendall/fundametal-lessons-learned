@@ -19,3 +19,17 @@ body {
     top: 130px;
     left: 300px;
   }
+
+  #licoes_aprendidas {
+    position: absolute;
+    top: 90px;
+    color:rgb(248, 177, 83);
+    font-weight: bold;
+  }
+  
+  #licoes_a_aprender {
+    position: absolute;
+    top: 350px;
+    color:rgb(248, 177, 83);
+    font-weight: bold;
+  }
