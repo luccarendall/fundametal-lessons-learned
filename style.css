@@ -1,10 +1,12 @@
 body {
+  background-image: url("bg.png");
   background-color: rgb(253, 251, 251);
   overflow-x:hidden;
   font-size: 14px;
   color: black;
   letter-spacing: 1px;
   font-family:monospace;
+  
 }
 #cabecalho {
     background-color: rgb(248, 177, 83);
@@ -53,8 +55,7 @@ h1{
     width: 91%;
     font-size: 14px;
     padding: 15px;
-    background-color: rgb(255, 227, 190);
-    border-radius: 2%;
+    background-color: rgb(248, 177, 83);
 }
 
 #text{
@@ -65,7 +66,6 @@ h1{
     padding: 15px;
     background-color: rgb(248, 177, 83);
     color: white;
-    border-radius: 2%;
 }
 
 #rodape {
@@ -75,17 +75,16 @@ h1{
     margin-right: auto;
 }
 
-a {
+.menu a {
   position: relative;
   padding: 5px 10px;
   display: inline-block;
   color: white;
   text-decoration: none;
   background-color: orange;
-  border-radius: 2%;
 }
 
-a:hover{
+.menu a:hover{
     border: 1.5px solid blak;
     background-color: white;
     color: tomato;
@@ -135,4 +134,32 @@ ol li {
 
 #tabela1 {
 float: left;
+}
+
+table tr th {
+    background-color: tomato;
+    color: white;
+    height: 5px;
+    padding: 5px 5px;
+    text-align: left;
+}
+
+h9{
+    font-weight: bold;
+    color: tomato;
+}
+
+#tabela3 tr th {
+    width: 64px;
+    text-align: center;
+}
+
+div {
+    border: 2px solid black;
+    width: 100px;
+}
+
+div a{
+text-decoration: none;
+color:white
 }
