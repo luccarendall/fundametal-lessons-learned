@@ -43,7 +43,7 @@ nav ul li:hover {
   width: 200px;
   position: relative;
   top: 180px;
-  border-radius: 20%;
+  border-radius: 10%;
 }
 
 #article, #text {
@@ -56,12 +56,12 @@ nav ul li:hover {
 #article{
     top: 240px;
     right: 0px;
-    width: 60%;
+    width: 92%;
 
 }
 
 #text{
-    top: -85px;
+    top: -115px;
     right: 0px;
     left: 800px;
     width: 30%;
@@ -70,7 +70,7 @@ nav ul li:hover {
 
 #licoes_aprendidas {
   position: relative;
-  top: -180px;
+  top: -195px;
   left: 230px;
   color: rgb(248, 177, 83);
   font-weight: bold;
@@ -80,7 +80,7 @@ nav ul li:hover {
   position: relative;
   color: rgb(248, 177, 83);
   font-weight: bold;
-  top: -386px;
+  top: -400px;
   left: 480px;
 }
 
@@ -101,5 +101,5 @@ a {
 }
 
 a:hover{
-    border: 2px solid black
+    border: 1.5px solid black
 }
