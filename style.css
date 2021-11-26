@@ -58,6 +58,8 @@ h1{
     font-size: 14px;
     padding: 15px;
     background-color: rgb(248, 177, 83);
+    position: relative;
+    top: 230px;
 }
 
 #text{
@@ -116,7 +118,7 @@ h1{
     font-weight: bold;
     width: 250px;
     padding: 10px;
-    top: -764px;
+    top: -770px;
     left: 510px;
   }
 
@@ -128,7 +130,7 @@ h1{
     
   } 
 
-h9{
+h4{
     font-weight: bold;
     color: tomato;
     text-align:center;
@@ -139,7 +141,7 @@ h9{
     text-align: center;
 }
 
-h2{
+h3{
     font-size: 16px;
     text-align: center;
 }
