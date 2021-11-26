@@ -41,12 +41,14 @@ h1{
   position: relative;
   top: 100px;
   border-radius: 10%;
+  box-shadow: 2px 2px 8px gray;
 }
 
 #article, #text {
   position: relative;
   font-weight: bold;
   text-align: justify;
+  box-shadow: 2px 2px 8px gray;
 }
 
 #article{
@@ -73,6 +75,7 @@ h1{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 2px 2px 8px gray;
 }
 
 .menu a {
@@ -90,67 +93,54 @@ h1{
     color: tomato;
 }
 
-ol li {
-    position: relative;
-    padding: 5px 10px;
-    display: inline-block;
-    color: white;
-    text-decoration: none;
+#licoes_aprendidas{
     background-color: orange;
-    border-radius: 2%;
-    justify-content: right;
-  }
-  
-  ul li {
-    position: relative;
-    padding: 5px 10px;
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    background-color: orange;
-    border-radius: 2%;
-    justify-content: left;
-  }
-
-.flex > section {
-    flex: 1 1 200px;
-}
-
-#licoes_aprendidas {
     position: relative;
     top: -425px;
     left: 230px;
-    color: rgb(248, 177, 83);
     font-weight: bold;
+    width: 250px;
+    padding: 10px;
+}
+
+#licoes_aprendidas li {
+    position: relative;
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
   }
   
   #licoes_a_aprender {
+    background-color: orange;
     position: relative;
-    color: rgb(248, 177, 83);
     font-weight: bold;
-    top: -672px;
-    left: 880px;
+    width: 250px;
+    padding: 10px;
+    top: -764px;
+    left: 510px;
   }
 
-#tabela1 {
-float: left;
-}
-
-table tr th {
-    background-color: tomato;
+ #licoes_a_aprender li {
+    position: relative;
+    padding: 5px 10px;
     color: white;
-    height: 5px;
-    padding: 5px 5px;
-    text-align: left;
-}
+    text-decoration: none;
+    
+  } 
 
 h9{
     font-weight: bold;
     color: tomato;
+    text-align:center;
 }
 
 #tabela3 tr th {
     width: 64px;
+    text-align: center;
+}
+
+h2{
+    font-size: 16px;
     text-align: center;
 }
 
@@ -161,5 +151,8 @@ div {
 
 div a{
 text-decoration: none;
+background-color: coral;
+padding: 5px 5px;
+display: flow-root;
 color:white
 }
